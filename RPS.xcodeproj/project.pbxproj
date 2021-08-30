@@ -13,6 +13,8 @@
 		EB3C3EF726D8D10D0068FFCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB3C3EF526D8D10D0068FFCC /* Main.storyboard */; };
 		EB3C3EF926D8D10E0068FFCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB3C3EF826D8D10E0068FFCC /* Assets.xcassets */; };
 		EB3C3EFC26D8D10E0068FFCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB3C3EFA26D8D10E0068FFCC /* LaunchScreen.storyboard */; };
+		EB3C3F0826D8D1E20068FFCC /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3C3F0726D8D1E20068FFCC /* Sign.swift */; };
+		EB3C3F0A26D8D3090068FFCC /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3C3F0926D8D3090068FFCC /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EB3C3EF826D8D10E0068FFCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB3C3EFB26D8D10E0068FFCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB3C3EFD26D8D10E0068FFCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB3C3F0726D8D1E20068FFCC /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		EB3C3F0926D8D3090068FFCC /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				EB3C3EEF26D8D10D0068FFCC /* AppDelegate.swift */,
 				EB3C3EF126D8D10D0068FFCC /* SceneDelegate.swift */,
 				EB3C3EF326D8D10D0068FFCC /* ViewController.swift */,
+				EB3C3F0726D8D1E20068FFCC /* Sign.swift */,
+				EB3C3F0926D8D3090068FFCC /* GameState.swift */,
 				EB3C3EF526D8D10D0068FFCC /* Main.storyboard */,
 				EB3C3EF826D8D10E0068FFCC /* Assets.xcassets */,
 				EB3C3EFA26D8D10E0068FFCC /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			files = (
 				EB3C3EF426D8D10D0068FFCC /* ViewController.swift in Sources */,
 				EB3C3EF026D8D10D0068FFCC /* AppDelegate.swift in Sources */,
+				EB3C3F0A26D8D3090068FFCC /* GameState.swift in Sources */,
+				EB3C3F0826D8D1E20068FFCC /* Sign.swift in Sources */,
 				EB3C3EF226D8D10D0068FFCC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,10 +301,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.naoyukiudemy.RPS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naoyukiudemy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,10 +320,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.naoyukiudemy.RPS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naoyukiudemy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
